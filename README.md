@@ -4,7 +4,7 @@ This is a Java Maven project that demonstrates how to read QR codes using Seleni
 
 ## Dependencies
 
-- **Selenium WebDriver 4.15.0**: For web automation and browser interaction
+- **Selenium WebDriver 4.35.0**: For web automation and browser interaction
 - **TestNG 7.8.0**: For testing framework
 - **WebDriverManager 5.5.3**: For automatic browser driver management
 - **ZXing Core & JavaSE**: For QR code reading functionality

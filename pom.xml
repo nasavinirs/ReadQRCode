@@ -20,7 +20,6 @@
         <selenium.version>4.35.0</selenium.version>
         <testng.version>7.8.0</testng.version>
         <zxing.version>3.5.3</zxing.version>
-        <webdrivermanager.version>5.5.3</webdrivermanager.version>
         <maven.surefire.version>3.2.2</maven.surefire.version>
     </properties>
 
@@ -37,13 +36,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-        </dependency>
-
-        <!-- WebDriverManager for automatic driver management -->
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>${webdrivermanager.version}</version>
         </dependency>
 
         <!-- ZXing library for QR code reading -->

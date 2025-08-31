@@ -1,6 +1,5 @@
 package com.example.qrcode;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,9 +22,6 @@ public class QRCodeReaderTest {
 
     @BeforeMethod
     public void setUp() {
-        // Setup WebDriverManager for Chrome
-        WebDriverManager.chromedriver().setup();
-
         // Configure Chrome options
         ChromeOptions options = new ChromeOptions();
         // options.addArguments("--headless"); // Run in headless mode
